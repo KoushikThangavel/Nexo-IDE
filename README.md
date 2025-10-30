@@ -32,7 +32,7 @@ This project integrates **Google’s Blockly library** for drag-and-drop coding 
 
 1. **Electron.js** creates a desktop shell to run the IDE as a native app.  
 2. **React** handles the frontend logic, rendering both the editor and Blockly workspace.  
-3. Users can **switch between block and text coding modes** via the integrated toggle.  
+3. Users can **switch between block and text coding modes** via the integrated drop-down.  
 4. Blockly’s XML export/import allows saving and reloading block-based projects.  
 5. All interactions happen locally — no internet connection required.
 
