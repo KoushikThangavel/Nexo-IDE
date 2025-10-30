@@ -55,4 +55,3 @@ npm install
 
 # Start the app
 npm start
->>>>>>> e3cbe0f317610622aba10351404ab0a7e1524d0e
