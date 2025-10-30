@@ -1,16 +1,58 @@
-# React + Vite
+# 🧠 Demo IDE — Electron + React + Blockly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A custom **desktop IDE** built using **Electron.js**, **React**, **HTML**, and **CSS**, designed to support both **text-based** and **block-based programming**.  
+This project integrates **Google’s Blockly library** for drag-and-drop coding blocks and provides a seamless switch between **Blockly mode** and a **text editor mode** — giving users the flexibility to code the way they prefer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🧩 **Blockly Integration** — Users can visually code using blocks powered by the Blockly library.
+- ✍️ **Text Editor Mode** — Built-in text editor for writing raw code (e.g., JavaScript, Python, etc.).
+- 🔄 **Mode Switcher** — Easily toggle between block-based and text-based coding.
+- 💾 **Save & Load Projects** — Preserve workspace data and load existing files.
+- 🪟 **Cross-Platform Desktop App** — Runs on Windows, macOS, and Linux using Electron.
+- ⚙️ **Modern UI** — Built with React and styled using HTML + CSS for a responsive, clean interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Component | Technology |
+|------------|-------------|
+| Framework | Electron.js |
+| Frontend | React.js (JSX) |
+| UI Design | HTML, CSS |
+| Block Coding | Google Blockly |
+| Code Editing | Built-in text editor (custom React component) |
+
+---
+
+## 🏗️ How It Works
+
+1. **Electron.js** creates a desktop shell to run the IDE as a native app.  
+2. **React** handles the frontend logic, rendering both the editor and Blockly workspace.  
+3. Users can **switch between block and text coding modes** via the integrated drop-down.  
+4. Blockly’s XML export/import allows saving and reloading block-based projects.  
+5. All interactions happen locally — no internet connection required.
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+>>>>>>> e3cbe0f317610622aba10351404ab0a7e1524d0e
